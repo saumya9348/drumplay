@@ -75,5 +75,5 @@ function clicAnimeBtn(clkd){
     // console.log(btnClicked);
     btnClicked.classList.toggle('pressed');
     setTimeout(function(){
-        btnClicked.classList.remove("pressed")},200);
+        btnClicked.classList.remove("pressed")},100);
 }
